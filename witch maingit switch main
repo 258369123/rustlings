@@ -1,0 +1,326 @@
+[33m54c7897[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m 1
+[33m1aec7c1[m Fix Windows CI
+[33m0b55809[m Fix building from source on Windows
+[33mbde6f74[m Co-ordinates -> Coordinates
+[33m53ec59e[m Rename translations
+[33med1ee38[m Link to simplified Chinese translation
+[33m26cf498[m Merge pull request #2173 from JoelMarcey/if2-comment-fix
+[33m6e60f44[m Fix argument comment in test of if2.rs
+[33md07de87[m Update deps
+[33mdd0634c[m Merge pull request #2158 from mnshdw/mnshdw/feedback-errors6
+[33mfc0cd8f[m Switch comment style to //
+[33md5cae8f[m Add alternative solution using From trait
+[33m38016cb[m clippy3: Make the intent more clear
+[33me6cb104[m chore: Release
+[33m410eb69[m Remove "chore: " from the commit message of releases
+[33m243cf5f[m Update CHANGELOG
+[33meff2ce8[m Ignore input while checking all exercises in watch mode
+[33mfd33c29[m Test with MSRV before release
+[33mf49164e[m Fix typo
+[33m9bc7bbe[m Update deps
+[33m46ad25f[m Fix contrast in terminals with a light theme
+[33m2a725fb[m Upgrade notify
+[33m4498586[m Update deps
+[33me8c2a79[m Deduplicate code for printing keys
+[33mea85c1b[m Merge pull request #2142 from cenviity/push-qoxkvmtkyvmv
+[33m6bec6f9[m threads1: Fix typos in description
+[33m930a0ea[m list: Highlight search match in exercise names
+[33m7e2f56f[m Use the default hasher
+[33me90f5f0[m Mention the Q&A category
+[33m0e090ae[m Add required type annotation
+[33m9949670[m Apply new Clippy lints
+[33mf146553[m hashmap3: Use `or_default`
+[33m0432e07[m Merge pull request #2130 from Nahor/typo
+[33mf33ba13[m Fix typos
+[33m990a722[m Limit the maximum number of exercises to 999
+[33ma675cb5[m Replace ahash with foldhash
+[33mbaeeff3[m Merge pull request #2122 from Nahor/check_all
+[33m932bc25[m Remove unneeded line
+[33mbdc6dad[m Update names
+[33mea73af9[m Separate initialization with a struct
+[33mfc5fc09[m Remove outdated comments
+[33m9705c16[m Remove the tracking of done and pending
+[33m8cac215[m Small improvements to showing progress
+[33m396ee4d[m Show progress with exercise numbers
+[33m326169a[m Improve check-all command
+[33m685e069[m First PR review changes
+[33m84a42a2[m Update third-party exercises section
+[33mac6e1b7[m Merge pull request #2121 from sotanengel/add/link-to-THIRD_PARTY-repository-for-Japanese-translations
+[33mf516da4[m Avoid single char variables
+[33me852e60[m Merge pull request #2124 from Polycarbohydrate/main
+[33mbf7d171[m Update from_str.rs
+[33md3f819f[m Add command line command to check all exercises
+[33maa83fd6[m Show a progress bar when running check_all
+[33me2f7734[m Limit the amount of parallelism in check_all
+[33m5c17abd[m Use a channel to update the check_all progress
+[33mc52867e[m Add command to check all the exercises
+[33m26fd97a[m Update all exercises during the final check
+[33mf0a2cde[m Merge branch 'rust-lang:main' into add/link-to-THIRD_PARTY-repository-for-Japanese-translations
+[33m0c79f2e[m Reset in prompt with confirmation
+[33m0e9eb9e[m Replace three dots with dot in hint
+[33m0d258b9[m Update deps
+[33md4fa61e[m Debounce file change events
+[33m554301b[m Clear terminal before final check in watch mode
+[33me3ec0ab[m add Third-Party List about rustlings-jp on README
+[33ma55e848[m Merge pull request #2114 from samueltardieu/push-ptorzrrnmxyp
+[33m2653c3c[m Do not use `.as_bytes().len()` on strings
+[33m4e4b657[m Only handle file changes for the current exercise, no jumping back
+[33m89c40ba[m Optimize the file watcher
+[33me56ae6d[m Update deps
+[33m64b2f18[m Merge pull request #2103 from senekor/senk/kvuzvzqqkskk
+[33m2894f3c[m Merge pull request #2110 from senekor/remo/skkynvtqxkoz
+[33m1bae2dc[m Merge pull request #2109 from bri-rose/main
+[33mb540c6d[m Make if2 less confusing
+[33m8b476e6[m Update info.toml
+[33m47f8a0c[m Add rust-analyzer.toml on `dev new`
+[33m9459eef[m Use Clippy with Rust-Analyzer
+[33m5aaa892[m <s>earch isn't a typo
+[33m4ffce1c[m Move lint to Rust lints
+[33m0513660[m Allow dead code for all exercises and solutions
+[33m3947c4d[m Pause input while running an exercise
+[33m664228e[m Improve quit message
+[33m234a61a[m Update deps
+[33m83d1275[m Add missing # in comment
+[33m45abd7d[m Merge pull request #2107 from alibektas/ratoml_for_rustlings
+[33m88e10a9[m hardcode ratoml in init.rs
+[33m1f624d4[m Add rust-analyzer.toml file
+[33m9a25309[m Remove redundant enum definition task
+[33m2b7caf6[m Too polite :P
+[33m938500f[m Fix dev check in official repo
+[33m2d26358[m Use the thread builder and handle the spawn error
+[33m9faa5d3[m Avoid asking for terminal size on each rendering
+[33mbcc2a13[m Add error message when unable to get terminal size
+[33mdcad002[m Only render when needed
+[33m51b8d2a[m Remove unused import
+[33maa3eda7[m Simplify handling terminal events for unbuffered stdin
+[33m2d0860f[m Hide input and disable its line buffering
+[33m1787736[m Update deps
+[33m5eb3dee[m Create solution even if the solution's directory is missing
+[33m247bd19[m Canonicalize exercise paths only once
+[33me5ed115[m Match filter once
+[33m03baa47[m Simplify handling `p` in list
+[33mda8b3d1[m Final touches to searching
+[33m20616ff[m Merge pull request #2098 from frroossst/main
+[33mf463cf8[m passes clippy lints and removed extra code from the merge
+[33me9879ea[m merge of origin/main
+[33m47148e7[m replaced enumerate() with position(); converted select_if_matches_search_query to apply_search_query
+[33mfea917c[m removed unnecessary update_rows() call and minor refactoring
+[33m948e16e[m moved continue to end of if-block
+[33m1e7fc46[m Merge branch 'main' of https://github.com/frroossst/rustlings
+[33m7149426[m fixed clippy lints
+[33m3125561[m Merge branch 'rust-lang:main' into main
+[33mabf1228[m search now filters the list first
+[33m547a9d9[m escape/enter no longer exits the list, exits only the search
+[33mf696d98[m Merge pull request #2097 from jsejcksn/ux
+[33m44ab7f9[m Merge branch 'main' of https://github.com/frroossst/rustlings
+[33m92a1214[m passes clippy lints
+[33m388f8da[m removed debug statements
+[33me966235[m Merge branch 'rust-lang:main' into main
+[33me1e316b[m Merge branch 'main' of https://github.com/frroossst/rustlings
+[33mc4fd295[m added a way to search through list, ref #2093
+[33ma8b13f5[m Remove "exercises" from the end of the progress bar
+[33m86fc573[m Remove the footer separators
+[33mf82e47f[m style: reduce pre-formatted message line lengths to 80 columns
+[33m75a38fa[m Add search to the help footer
+[33mac62a37[m Fix typo
+[33mea52c99[m Merge pull request #2092 from wugalde19/fix-hint-example-for-primitive-types3
+[33m7d4100e[m Fix example in 'primitive_types3' hint
+[33mc8d1d9c[m chore: Release
+[33mab2eb34[m Update changelog
+[33mdbbeb7d[m Fix displaying the list message in narrow mode
+[33mbfa00ff[m Update deps
+[33m10eb1a3[m Fix header padding
+[33mfd2bf9f[m Simplify next_pending_exercise_ind
+[33mfc1f9f0[m Optimize reading and writing the state file
+[33m789492d[m The number of exercises can't be zero, but still
+[33mafc320b[m Fix error about too many open files during the final check
+[33mcba4a6f[m Only disable links in VS code in the list
+[33m5556d42[m Use sol_path
+[33m7d2bc1c[m Use a Vec for the name col padding
+[33mc209c87[m Check the exercise name length
+[33mdd52e9c[m Separate the scroll state
+[33m0f71a15[m Making code prettier :P
+[33m74388d4[m Only trigger write when needed
+[33me811dd1[m Fix list on terminals that don't disable line wrapping
+[33mf22700a[m Use the correct environment variable
+[33mee25a7d[m Disable terminal links in VS-Code
+[33m594e212[m Darker highlighting in the list
+[33m5c35546[m File link in the list? No problem :D
+[33md1571d1[m Only reset color and underline after link
+[33mcb86b44[m LOL, swapped colors
+[33m833e6e0[m Newline after resetting attributes
+[33m159273e[m Take stdout as argument in watch mode
+[33m631f2db[m Lower the maximum scroll padding
+[33ma1f0eaa[m Add disallowed types and methods in Clippy
+[33mb1898f6[m Use queue instead of Stylize
+[33md29e9e7[m Update deps
+[33m360605e[m Merge branch 'rm-ratatui'
+[33m6477254[m Final touches :D
+[33m5f4875e[m Almost done with list
+[33mfd2a8c0[m Separate drawing rows
+[33mb6129ad[m Use the full length for the wide footer
+[33m28d0b0a[m Highlight selected row
+[33mb779c43[m Almost done with list display
+[33m4e12725[m Don't exit the list on "to current" if nothing is selected
+[33m570bc9f[m Start list without Ratatui
+[33m47976ca[m Import Ordering
+[33mf1abd85[m Add missing Clippy allows to solutions
+[33m423b50b[m Use match instead of comparison chain
+[33mbedf078[m Always use strict Clippy when checking solutions
+[33ma2d1cb3[m Push newline after running an exercise instead on each rendering
+[33me7ba88f[m Highlight the solution file
+[33m50f6e52[m Leak info_file and cmd_runner in `dev check`
+[33m8854f0a[m Use anyhow!
+[33m13cc3ac[m Improve readability
+[33m5b7368c[m Improve error message if no exercise exists
+[33m27999f2[m Check if exercise doesn't contain tests
+[33me74f2a4[m Check for `#[test]` with newline at the end
+[33md141a73[m threads3: Improve the test
+[33m631f443[m Remove `--show-output` for tests and use `--format pretty`
+[33mb01fdde[m Show progress of `dev check`
+[33m78a8553[m "Continue at" quits the list
+[33mb70c1ab[m Update deps
+[33m71f31d7[m Update deps
+[33m72e557b[m Break help footer on narrow terminals
+[33m3eaccbb[m Restore the terminal after an error in the list
+[33mb678bd8[m Disable mouse in the list
+[33m2baa140[m q only quits the list
+[33me760f07[m Make it clear that reset only resets one exercise
+[33mca5d5f0[m Remove dot for copy-pasta
+[33m69b4fd4[m Only take a u8 to avoid huge output
+[33m36f315c[m Add "the"
+[33m8016f5c[m Remove unneeded comma
+[33m8ef2ff1[m Remove "Hello and"
+[33m6ce31de[m Ignore stdout of git init
+[33m0b3ad91[m Add exercise lints
+[33mc903db5[m Add project lints
+[33m8a038b9[m Merge pull request #2084 from crd477/patch-1
+[33med9740b[m fix typo
+[33mce3dcc9[m Fix typo
+[33m4472d50[m chore: Release
+[33ma1d5702[m Ready for publish
+[33m52a231c[m Update Ratatui
+[33m16af981[m Hide stderr of `cargo locate-project`
+[33mfc141b8[m Put Cargo.toml in ``
+[33m82ebd29[m Add a special confirmation for initialization in a workspace
+[33mf5737b5[m Fix typos
+[33m55e68d2[m Update deps
+[33m479f45d[m test_dir is a str anyway
+[33m140c4e4[m Improve initialization in a Cargo workspace
+[33m337460d[m Check the status of the `cargo metadata` command
+[33me41c3a7[m Use fixed seeds with ahash
+[33m1b9faa4[m Update CHANGELOG
+[33m9f9a754[m Merge pull request #2076 from senekor/remo/snryotxotoxv
+[33mf7b0cfe[m Merge pull request #2075 from senekor/remo/swzqnkxqzutw
+[33m4ce8667[m Show the exercise name in the waiting message
+[33m0785b24[m Show a message before running the exercise
+[33m34f02cf[m Attach error message as context
+[33m8b43d79[m Fix integration tests
+[33mdc086c6[m Improve initialization in workspace
+[33mdc0ffbe[m Replace hashbrown with ahash
+[33m8df66f7[m Allow initialization in a workspace
+[33m3958038[m rust-analyzer problem isn't fixed :(
+[33m06a0f27[m Don't recommend the builtin VS-Code terminal because it can't clear scrollback
+[33mfd97470[m Adapt type name in hint
+[33m11fc3f1[m Fix errors not being shown after the welcome message
+[33m693bb70[m Add README to the solutions dir
+[33m97719fe[m Remove state file and solutions dir from .gitignore
+[33m4933ace[m Add `panic = "abort"` for exercises
+[33m81bf0a6[m Remove redundant rustfmt check for solutions
+[33m24aed1b[m Update CHANGELOG
+[33m09c3ac0[m Merge pull request #2062 from jimbo5922/jimbo5922-fix-hashmap3-struct-name
+[33m45a3958[m Merge pull request #2066 from matthewjnield/main
+[33m286a455[m Avoid using `RUSTFLAGS` to not trigger rebuilding, especially in rust-analyzer
+[33mbdf4960[m Fix exercise name shift in exercise check
+[33m13124aa[m Update deps
+[33m2128be8[m chore: Fix snakecase convention in errors6.rs
+[33m175294f[m Add `rust-version`
+[33m5016c7c[m Use `trim_ascii` instead of `trim`
+[33m1468206[m Stop on first exercise solved
+[33md1ff4b5[m Remove newline
+[33m700a065[m Fix rustfmt option
+[33m3fc462f[m Fix tests
+[33m65a8f6b[m Run rustfmt on solutions in `dev check`
+[33me0f0944[m Refactor check_solutions
+[33mc7590dd[m Improve the runner
+[33m33a5680[m Hide `cargo build` warnings if there is no output
+[33m455d87c[m Fix capacity
+[33me65ae09[m fix format
+[33mdacdce1[m fix: update struct name in hashmap3
+[33m766f3c5[m Add hint to run `dev check` again after `dev update`
+[33m802b97b[m Set stdin to null when running the binary of an exercise
+[33m2ad408f[m Update deps
+[33mc8fddd8[m Add Github profile links for every author
+[33m74fab99[m Make the output optional
+[33m3a99542[m Run the final check in parallel
+[33m2ae9f35[m Update deps
+[33m1937b4b[m Use the rexported crossterm from ratatui
+[33m8beb290[m Test initialization
+[33m8fec515[m Clean up tests
+[33m3f49dec[m Remove assert_cmd and predicates
+[33me2492f6[m Update deps
+[33m5116a81[m tests3: Fix panic message
+[33m82409c0[m Update deps
+[33m183ed3f[m Update dep
+[33m447ac3c[m strings3: Improve hint
+[33m96f9692[m Merge pull request #2050 from yapjiahong/main
+[33m2c79e29[m doc: enchane string3 exercise hint
+[33m362473d[m Sync exercise and solution
+[33m8339682[m Merge pull request #2049 from Vexcited/patch-1
+[33m3f06d76[m fix: Lyche becomes Lychee
+[33m2854dc9[m Update CI and release hook
+[33m516fcf9[m Update section
+[33m12d1971[m Update section about command not found
+[33m3e09e50[m Add section about rustlings not found
+[33m99fb11c[m Update syn
+[33md176ddd[m Improve TODO comment
+[33m0847b3a[m chore: Release
+[33m6d2ea8d[m Update CHANGELOG
+[33m47ba450[m move_semantics2: Mention cloning in the hint
+[33m6263cb6[m Add note about iterating over Option
+[33md7024d8[m move_semantics4: Avoid using the dereference operator
+[33m59d6b85[m move_semantics5: Move `main` to the end
+[33me512928[m Update deps
+[33ma38029e[m Merge pull request #2037 from jaads/fix-iterators-2-hint
+[33mb12b652[m updated variable name in hint
+[33mc793416[m Fix typo
+[33m01343f1[m Explain what a factorial is and link to wikipedia for more details
+[33m69021e1[m Remove stable from book links
+[33m08c408a[m Add hint about string concatination with +
+[33mbf69865[m Sync comment from exercise
+[33m2d5d706[m errors3: Add a comment to prevent changing the wrong line
+[33ma4091ad[m iterators3: Add `IntegerOverflow` error variant
+[33ma7a8818[m Check is_terminal
+[33m0f4cb94[m quiz2: Use repeat
+[33m6469e97[m Merge pull request #2031 from NewtonChutney/patch-1
+[33m5372cae[m Update iterator sol in quiz2.rs
+[33m9d7b973[m Improve the comments in cow1
+[33ma5f221a[m Improve some messages
+[33me764b75[m This'll -> This will
+[33m708cfef[m enums3: Avoid confusion with parentheses
+[33m01b8432[m Mark the last exercise as done
+[33m9b5b652[m Fix link on website
+[33m981a477[m Add newline between functions
+[33m5d4363d[m Add comma
+[33m48697b8[m Merge pull request #2027 from yerke/patch-2
+[33m1652bb6[m Merge pull request #2026 from yerke/patch-1
+[33m1499f68[m Fix formatting in strings4.rs
+[33ma21fa6f[m Fix typo in structs3.rs
+[33m186dc3c[m Merge pull request #2025 from mre/patch-1
+[33m6b7a27d[m Fix typo in `THIRD_PARTY_EXERCISES.md`
+[33mc9017f9[m Merge pull request #2022 from matthewjnield/main
+[33mfdada8b[m chore: Update errors5.rs exercise to be consistent with solution
+[33m9e2ff7d[m Merge pull request #2021 from matthewjnield/main
+[33m65834fc[m Improve quizes
+[33mf5a4965[m Improve wording in quiz1
+[33mdb5911e[m Use *=
+[33m2f4e63b[m fix: Add clarification to instructions for hashmaps2.rs
+[33m584164a[m Adjust enums exercises
+[33me6f6d26[m Import enum variants in all tests
+[33m67d8d58[m Merge pull request #1774 from matthri/fix-enum-variant-inconsistency
+[33m43d15f0[m Readd "structs"
+[33m7123c7a[m Merge remote-tracking branch 'upstream/main' into fix-enum-variant-inconsistency
+[33m4d9c346[m Merge pull request #2019 from Nahor/iterator5
+[33mdeed9d3[m Add alternative solution for iterators5
+[33m652f0c7[m Fix tests
+[33me479ec8[m Merge pull request #2018 from Nahor/iterators4
